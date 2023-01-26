@@ -18,4 +18,14 @@ public class PlantService {
     public List<Plant> getAll() {
         return plants;
     }
+
+    public int addPlant(Plant plant) {
+
+        if (plants.contains(plant)) {
+            System.out.println("found a duplicate");
+            return -1;
+        }
+        plants.add(plant);
+        return 0;
+    }
 }
