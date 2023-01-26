@@ -1,4 +1,4 @@
-package dev.codefuchs.swaggerdemo;
+package dev.codefuchs.swaggerdemo.plant;
 
 public class Plant {
 
